@@ -30,13 +30,14 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team</a>
+            <a class="nav-link" href="ourTeam.html">Our Team</a>
           </li>
           <li class="nav-item">
             <div class="dropdown">
-              <a class="nav-link" href="#">Services & Practice Areas</a>
+              <a class="nav-link" onmouseover="displayDropdown()" href="#">Services & Practice Areas</a>
               <div class="dropdown-content" id="myDropdown">
                 <a href="divorceSeparation.html">Divorce and Separation</a>
+                <a href="divorceSeparation.html">Immigration Law</a>
                 <a href="criminalMatters.html">Criminal Matters</a>
                 <a href="wills.html">Wills and Estates</a>
                 <a href="childCustody.html">Child Custody Matters</a>
@@ -46,7 +47,7 @@
               </div>
             </div>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="blog.html">Blog and Knowledge</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -106,26 +107,43 @@
   <footer class="bg-dark text-light py-5 footer-content">
     <div class="container footer-main">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3 class="theme-color">Contact Details</h3>
           <p>Mrs. Agnes</p>
-          <p>Email: info@example.com</p>
-          <p>Phone: +1 123 456 7890</p>
+          <p onclick="location.href='mailto:info@BLAMS.com'">info@BLAMS.com</p>
+          <p>+1 123 456 7890</p>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-solid fa-map-location-dot"></i>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3 class="theme-color">Services We Offer</h3>
-          <ul>
-            <li>Legal Consultation</li>
-            <li>Contract Drafting</li>
-            <li>Litigation Support</li>
-            <li>Family Law</li>
+          <ul class=" footer-serviceList">
+            <li onclick="location.href='divorceSeparation.html'">
+              <span class="footer-list-symbol">»</span> Divorce & Separation</li>
+            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
+            <li onclick="location.href='criminalMatters.html'"><span class="footer-list-symbol">»</span> Criminal Matters</li>
+            <li onclick="location.href='wills.html'"><span class="footer-list-symbol">»</span> Wills and Estates</li>
+            <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Child Custody</li>
+            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Mediation & Arbitration</li>
+            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
+            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Civil Dispute Resolution</li>
           </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3 class="theme-color">Location</h3>
-          <p>123 Main Street, City</p>
-          <p>State, Country</p>
-          <p>Postal Code</p>
+          <p>123 Main Street</p>
+          <p>Calgary, AB, Canada</p>
+          <p>T2N 1N5</p>
+        </div>
+        <div class="col-md-3">
+          <h3 class="theme-color">Hours</h3>
+          <p>Monday: 9:00 am – 5:00 pm</p>
+          <p>Tuesday: 9:00 am – 5:00 pm</p>
+          <p>Wednesday: 9:00 am – 5:00 pm</p>
+          <p>Thursday: 9:00 am – 5:00 pm</p>
+          <p>Friday: 9:00 am – 5:00 pm</p>
+          <p>Saturday & Sunday: By appointment only</p>
         </div>
       </div>
     </div>

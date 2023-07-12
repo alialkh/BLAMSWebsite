@@ -205,10 +205,39 @@ p {
     border-bottom: 1px solid #6173f4;
     padding-bottom: 1.5em;
 }
+footer p{
+    font-size: 1em;
+}
+footer li{
+    color:white;
+    cursor:pointer;
+    padding-bottom:.5em;
+}
+footer li:hover {
+    color:#6173f4;
+    transition: color 0.40s ease-in-out;
+}
+footer i {
+    font-size:2em;
+    margin-right:.5em;
+    cursor:pointer;
+}
+footer i:hover {
+    color:#6173f4;
+    transition: color 0.40s ease-in-out;
+}
+.footer-list-symbol{
+    color:#6173f4;
+}
+.footer-serviceList{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */}
 .copyright{
     text-align: center;
     margin-top:2em;
 }
+
 /* Information Pages */
 .info-img{
     display: block;
@@ -237,8 +266,95 @@ p {
     background-color: rgba(0,0,0,0.05); margin-bottom:1em; padding-bottom:2em;
 }
 
+/* For blogposts */
+.blogpost-header{
+    /*padding:0;*/
+    background-color: rgba(0,0,0,0.1);
+    background-clip:content-box;
+}
 
+.blogpost-header:hover h2{
+    color:#6173f4;
+    transition: color 0.40s ease-in-out;
+}
+.blogpost-header:hover a{
+    color: #001eff;
+    transition: color 0.40s ease-in-out;
+}
+.blogpost-headerline{
+    display:inline-block; font-size: 1.1em; color:rgba(0,0,0,0.5); margin-bottom:2em; margin-top:1em;"
+}
+.blogpost-header-icon{
+    color:#6173f4;
+    display:inline-block;
+}
+.blogpost-header-img{
+    height:40vh; width:100%; margin-bottom: 1em;
+}
+.blogpost-header-text{
+    font-size:1.1em; border-bottom: 1px solid rgba(0,0,0,0.5); padding-bottom:2em; margin-bottom:0;
+}
+.blogpost-header-link{
+    text-decoration:none;
+    color:black;
+    font-size:1.25em;
+    margin-bottom:1em;
+}
+.blogpost-header-link > a {
+    text-decoration:none;
+    color: rgb(98, 98, 98);
+}
+/* Our Team Page */
+.team-internal-container {
+    background-color: rgba(0, 0, 0, 0.20);
+    /*padding-right: 15em;*/
+    padding-bottom: 5vh;
+    margin-bottom:5vh;
+}
+.team-img{
+    display: block;
+    max-width: 95%;
+    max-height:70vh;
+    width: auto;
+    height: auto;
+}
+.team-header{
+    font-size: 4em;
+}
+@media (min-width: 800px) {
+    .team-internal-container {
+        background-color: rgba(0, 0, 0, 0.20);
+        padding-right: 15em;
+        padding-bottom: 2vw;
+    }
+    .team-img{
+        position:absolute;
+        top:0;
+        right:0;
+
+    }
+    .team-header{
+        margin-bottom:3em
+    }
+}
+.team-internal-container *{
+    margin-left:3vw;
+}
+.team-internal-container p{
+    font-size:1em;
+}
+.team-container{
+    margin-top:4em;
+    position:relative;
+}
+.team-section{
+    padding: 5em 1em 5em 1em;
+    background-color: rgba(0, 0, 0, 0.10);
+}
 /* fonts */
+.quicksand{
+    font-family: 'Quicksand', serif;
+}
 .roboto {
     font-family: 'Roboto Slab', serif;
 }
