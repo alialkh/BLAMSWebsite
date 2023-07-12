@@ -320,6 +320,7 @@ footer i:hover {
     max-height:60vh;
     width: auto;
     height: auto;
+    margin-bottom:2em;
 }
 .team-header{
     font-size: 4em;
@@ -351,7 +352,7 @@ footer i:hover {
     position:relative;
 }
 .team-section{
-    padding: 5em 1em 5em 1em;
+    padding: 3em 1em 5em 1em;
     background-color: rgba(0, 0, 0, 0.10);
 }
 /* fonts */
