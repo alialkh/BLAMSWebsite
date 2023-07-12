@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+  <link rel="stylesheet" href="css/alisStylesheet.css">
+  <title>Law Firm Website</title>
+</head>
+
+<body>
+
+<!-- Header Here --->
+<header class="header" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-expand-lg navbar-light" >
+    <div class="container">
+      <div class="flex-grow-1"><a class="navbar-brand" href="index.html">Logo</a> </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-grow-1 justify-content-evenly">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" href="#">Services & Practice Areas</a>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="divorceSeparation.html">Divorce and Separation</a>
+                <a href="criminalMatters.html">Criminal Matters</a>
+                <a href="wills.html">Wills and Estates</a>
+                <a href="childCustody.html">Child Custody Matters</a>
+                <a href="#">Mediation and Arbitration</a>
+                <a href="#">Spousal and Partner Support</a>
+                <a href="#">Civil Dispute Resolution</a>
+              </div>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Page content -->
+<main>
+  <!-- carousel -->
+  <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="overlay-div-other">
+      <div class="overlay"><span class="overlay-text"><h1>BLAMS Law</h1></span></div>
+      <div class="overlay-2 monteserrat"><h2>Blog</h2></div>
+      <div class="overlay-button">
+        <!--                <a href="contact.html"> Contact Us 🠪</a>-->
+      </div>
+
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="other carousel-item active" data-bs-interval="4000">
+        <img src="imgs/lawyerSuit.jpg" class="d-block" alt="...">
+      </div>
+      <div class="other carousel-item" data-bs-interval="2000">
+        <img src="imgs/courthouse.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-5 footer-content">
+    <div class="container footer-main">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="theme-color">Contact Details</h3>
+          <p>Mrs. Agnes</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +1 123 456 7890</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="theme-color">Services We Offer</h3>
+          <ul>
+            <li>Legal Consultation</li>
+            <li>Contract Drafting</li>
+            <li>Litigation Support</li>
+            <li>Family Law</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3 class="theme-color">Location</h3>
+          <p>123 Main Street, City</p>
+          <p>State, Country</p>
+          <p>Postal Code</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      ©Website designed by <strong><span>Ali Al-Khaz'Aly</span></strong>. All Rights Reserved
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.js"></script>
+</main>
+</body>
+
+</html>
