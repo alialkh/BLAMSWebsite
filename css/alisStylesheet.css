@@ -167,8 +167,11 @@ p {
     color:#6173f4;
     transition: color 0.5s ease-in-out
 }
+.containerHover-link{
+    cursor:pointer;
+}
 
-/*change from  bordder-bottom to  just color  if you want to color the writing*/
+    /*change from  bordder-bottom to  just color  if you want to color the writing*/
 .containerHover:hover h5{
     border-bottom-color:#6173f4;
     transition: color 0.5s ease-in-out
@@ -314,7 +317,7 @@ footer i:hover {
 .team-img{
     display: block;
     max-width: 95%;
-    max-height:70vh;
+    max-height:60vh;
     width: auto;
     height: auto;
 }
