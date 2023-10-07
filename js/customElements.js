@@ -12,7 +12,7 @@ class customFooter extends HTMLElement {
                     <h3 class="theme-color">Contact Details</h3>
                     <p>Mrs. Agnes Ameh</p>
                     <p onclick="location.href='mailto:info@aamehlawfirm.ca'" class="mail-link">info@aamehlawfirm.ca </p>
-                    <p>+1 123 456 7890</p>
+                    <p>+1 587-355-9074</p>
                     <i class="fa-brands fa-square-facebook"></i>
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-solid fa-map-location-dot"></i>
@@ -20,15 +20,14 @@ class customFooter extends HTMLElement {
                 <div class="col-md-3">
                     <h3 class="theme-color">Services We Offer</h3>
                     <ul class=" footer-serviceList">
-                        <li onclick="location.href='divorceSeparation.html'">
-                            <span class="footer-list-symbol">»</span> Divorce & Separation</li>
-                        <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
+                        <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Divorce & Separation</li>
+                        <li onclick="location.href='immigration.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
                         <li onclick="location.href='criminalMatters.html'"><span class="footer-list-symbol">»</span> Criminal Matters</li>
-                        <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Real Estate Law</li>
+                        <li onclick="location.href='realEstate.html'"><span class="footer-list-symbol">»</span> Real Estate Law</li>
                         <li onclick="location.href='wills.html'"><span class="footer-list-symbol">»</span> Wills and Estates</li>
                         <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Parenting & Custody</li>
-                        <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Divorce and Separation</li>
-                        <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
+                        <li onclick="location.href='spousalSupport.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
+                        <li onclick="location.href='childWelfare.html'"><span class="footer-list-symbol">»</span> Child Welfare</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -81,18 +80,18 @@ class customHeader extends HTMLElement {
                             <a class="nav-link" onmouseover="displayDropdown()" href="#">Services & Practice Areas</a>
                             <div class="dropdown-content" id="myDropdown">
                                 <a href="divorceSeparation.html">Divorce and Separation</a>
-                                <a href="divorceSeparation.html">Immigration Law</a>
+                                <a href="immigration.html">Immigration Law</a>
                                 <a href="criminalMatters.html">Criminal Matters</a>
+                                <a href="realEstate.html">Real Estate Law</a>
                                 <a href="wills.html">Wills and Estates</a>
-                                <a href="childCustody.html">Child Custody Matters</a>
-                                <a href="#">Mediation and Arbitration</a>
-                                <a href="#">Spousal and Partner Support</a>
-                                <a href="#">Civil Dispute Resolution</a>
+                                <a href="childCustody.html">Parenting & Custody</a>
+                                <a href="spousalSupport.html">Spousal and Partner Support</a>
+                                <a href="childWelfare.html">Child Welfare</a>
                             </div>
                         </div>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog and Knowledge</a>
-                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="blog.html">Blog and Knowledge</a>-->
+<!--                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
