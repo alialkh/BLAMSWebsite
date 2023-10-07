@@ -138,7 +138,7 @@ body {
 /* Custom styles for the header */
 .header {
     background-color: #f8f9fa;
-    padding: 20px 20px 0;
+    padding: 0 20px 0;
 }
 
 .header a {
@@ -360,9 +360,13 @@ footer i:hover {
         padding-bottom: 2vw;
     }
     .team-img{
-        position:absolute;
-        top:0;
-        right:0;
+        position:relative;
+        top:15vh;
+        left:-13vw;
+        max-width:100%;
+        width:auto;
+        height:auto;
+
 
     }
     .team-header{
