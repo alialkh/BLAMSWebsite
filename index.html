@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="./js/customElements.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
     <link rel="stylesheet" href="css/alisStylesheet.css">
     <title>The BLAMS Firm</title>
@@ -16,58 +18,18 @@
 
 <body>
 <!-- Header Here --->
-<header class="header" style="background-color: #e3f2fd;">
-    <nav class="navbar navbar-expand-lg navbar-light" >
-        <div class="container">
-            <div class="flex-grow-1"><a class="navbar-brand" href="index.html">Logo</a> </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto flex-grow-1 justify-content-evenly">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ourTeam.html">Our Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="nav-link" onmouseover="displayDropdown()" href="#">Services & Practice Areas</a>
-                            <div class="dropdown-content" id="myDropdown">
-                                <a href="divorceSeparation.html">Divorce and Separation</a>
-                                <a href="divorceSeparation.html">Immigration Law</a>
-                                <a href="criminalMatters.html">Criminal Matters</a>
-                                <a href="wills.html">Wills and Estates</a>
-                                <a href="childCustody.html">Child Custody Matters</a>
-                                <a href="#">Mediation and Arbitration</a>
-                                <a href="#">Spousal and Partner Support</a>
-                                <a href="#">Civil Dispute Resolution</a>
-                            </div>
-                        </div>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog and Knowledge</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+<app-header></app-header>
 
 <!-- Page content -->
 <main>
     <!-- Carousel -->
     <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="overlay-div">
-            <div class="overlay"><span class="overlay-text"><h1>BLAMS Law</h1></span></div>
-            <div class="overlay-2 monteserrat"><h5>Welcome to BLAMS law firm, where we understand the importance of your family's well-being.
-                With our compassionate approach and expertise in child welfare, family divorce, and criminal law, we provide
-                tailored solutions to protect your loved ones and provide you with the guidance and support you need for
-                a brighter tomorrow.</h5></div>
+<!--        <div class="overlay-div">-->
+<!--            <div class="overlay"><span class="overlay-text"><h1>Aameh Law</h1></span></div>-->
+<!--            <div class="overlay-2 monteserrat"><h5>Welcome to Aameh Law firm, where we understand the importance of your family's well-being.-->
+<!--                With our compassionate approach and expertise in child welfare, family divorce, and criminal law, we provide-->
+<!--                tailored solutions to protect your loved ones and provide you with the guidance and support you need for-->
+<!--                a brighter tomorrow.</h5></div>-->
 <!--            Welcome to our law firm, where we are dedicated to protecting your family's future
                 with compassion and expertise. Our experienced team specializes in child welfare, family divorce,
                 and criminal law, providing tailored solutions to help you navigate the legal challenges ahead.
@@ -76,14 +38,12 @@
     -->
 <!--            -->
 
-            <div class="overlay-3"><h6>1111 BLAMS Street Northwest Calgary AB   -  403-911-9111</h6></div>
+<!--            <div class="overlay-3"><h6>Suite 203, 3016 19th Street NE Calgary AB   -  587-355-9074</h6></div>-->
 
-            <div class="overlay-button">
-<!--                <a href="contact.html"> Contact Us 🠪</a>-->
-                <a type="button" class="btn btn-outline-primary" href="contact.html">Contact Us Now</a>
-                </div>
-
-        </div>
+<!--            <div class="overlay-button">-->
+<!--                <a type="button" class="btn btn-outline-primary" href="contact.html">Contact Us Now</a>-->
+<!--                </div>-->
+<!--        </div>-->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
                     aria-label="Slide 1"></button>
@@ -91,29 +51,62 @@
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-caption d-none d-md-block bg-opacity-50 bg-black">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-            </div>
-            <div class="carousel-item active" data-bs-interval="10000">
+<!--            <div class="carousel-caption d-md-block bg-opacity-50 bg-black">-->
+<!--                <h5>First slide label</h5>-->
+<!--                <p>Some representative placeholder content for the first slide.</p>-->
+<!--            </div>-->
+            <div class="carousel-item active" data-bs-interval="1500">
+                <div class="overlay-div" >
+                    <div style="margin-right:43vw; margin-left:10vw">
+                    <div class="overlay" ><span class="overlay-text quicksand" ><h1>Family Law</h1></span></div>
+                    <h1 class="overlay-2 monteserrat fw-bold">Family Law Matters</h1>
+                        <h4 class="overlay-3 roboto">We will fight for you on any family related legal issue.</h4>
+
+                    <div class="overlay-button monteserrat">
+                        <a type="button" class="btn btn-outline-primary" href="contact.html">Contact Us Now</a>
+                    </div>
+                    </div>
+                </div>
                 <img src="imgs/lawyerSuit.jpg" class="d-block" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
+                <div class="overlay-div" >
+                    <div style="margin-right:43vw;margin-left:10vw">
+                        <div class="overlay" ><span class="overlay-text quicksand"><h1>Immigration Law</h1></span></div>
+                        <h1 class="overlay-2 monteserrat fw-bold">Canadian Immigration Law</h1>
+                        <h4 class="overlay-3 roboto">We will help you Navigate the Path to Your New Beginning.</h4>
+
+                        <div class="overlay-button monteserrat">
+                            <a type="button" class="btn btn-outline-primary" href="contact.html">Contact Us Now</a>
+                        </div>
+                    </div>
+                </div>
                 <img src="imgs/courthouse.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="overlay-div" >
+                    <div style="margin-right:43vw; margin-left:10vw">
+                        <div class="overlay" ><span class="overlay-text quicksand" ><h1>Real Estate</h1></span></div>
+                        <h1 class="overlay-2 monteserrat fw-bold">Real Estate </br>Law</h1>
+                        <h4 class="overlay-3 roboto">Unlock Your Real Estate Dreams with Our Legal Expertise.</h4>
+
+                        <div class="overlay-button monteserrat">
+                            <a type="button" class="btn btn-outline-primary" href="contact.html">Contact Us Now</a>
+                        </div>
+                    </div>
+                </div>
                 <img src="imgs/lawLibrary.jpg" class="d-block w-100" alt="...">
             </div>
             <!-- Add more carousel items as needed -->
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+<!--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">-->
+<!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--            <span class="visually-hidden">Previous</span>-->
+<!--        </button>-->
+<!--        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">-->
+<!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--            <span class="visually-hidden">Next</span>-->
+<!--        </button>-->
     </div>
 
 
@@ -122,7 +115,7 @@
         <div class="container">
             <h1 class="text-center">A Long History of Fighting for you</h1>
             <h6 class="text-center theme-color" style="padding-top:0; margin-top:-0.2em; margin-bottom:2em">WELCOME TO OUR OFFICE</h6>
-            <p>At the BLAMS firm, we are absolutely committed to fighting for you.
+            <p>At the Aameh firm, we are absolutely committed to fighting for you.
                 With xyz years of experience in XXX Law and YYY Law, we are confident and prepared to stand for all of your
                 family and other legal matters. Welcome to our law firm, where we specialize in providing exceptional legal services in the areas of family law, immigration law, wills, and child custody.
                 Our dedicated team of experienced attorneys is committed to advocating for your rights and ensuring the best possible
@@ -159,25 +152,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h3 class="theme-color"> Agnes Ojone Ameh </h3>
+                    <h3 class="theme-color gabarito"> Agnes Ojone Ameh </h3>
                     <img class="bio-img" src="./imgs/lawyerSuit-cropped.jpg" alt="Agnes Ojone Ameh Image">
                     <h6 class="monteserrat" style="margin-bottom:1em;">Principal Lawyer</h6>
-                    <h6 class="monteserrat"><b>LL.B., Master of Laws (LL.M)., Practising Mediator</b></h6>
+                    <h6 class="monteserrat"><b>LL.B., B.A.</b></h6>
                 </div>
                 <div class="col-md-8">
                     <span class="monteserrat">
-                    Since graduating from Dalhousie University in 2007, Agnes’s practice has focused exclusively on Family Law,
-                    with emphasis on Matrimonial Property, Domestic Violence, Custody, Child, and Spousal Support cases.
+                    Since graduating from Nnamdi Azikiwe University in 2002 in Nigeria with an LL.B. and B.A., Agnes has
+                        supported hundreds of people through Custody, Gaurdianship, child/spousal support matters, divorce and
+                        division of property matters.
                     <br><br>Her international background working with families underscores her understanding of the practice of Family Law.
                     Agnes has consistently advocated for her clients, guiding both men and women through difficult divorces and
                     complex family issues. Her swift approach to litigation coupled with her dedication to her clients has enabled
                     her to best achieve her clients’ goals and safeguard their interests.
-                    <br><br>Since her certification to represent
-                    children in 2018, Agnes has represented many children in high conflict family law matters. She has displayed
-                    and maintained a high level of objectivity and neutrality in her role as children’s counsel and as an officer
-                    of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                    Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and
-                    ensures that you are comfortable every step of the way.
+                    <br><br>
+                        Agnes is a remarkable individual who has championed the rights of
+                        children and families in the complex realm of child welfare law and guardianship matters.
+                        With a wealth of experience and unwavering dedication, she stands as a beacon of hope
+                        and support for those navigating the often intricate and emotionally charged landscape of family
+                        law. Her profound knowledge of the legal intricacies surrounding child custody, foster care,
+                        adoption, and guardianship is matched only by her compassion and empathy for her clients.
+                        Agnes approaches every case with a deep sense of responsibility and an unshakable commitment to
+                        ensuring the best interests of the children involved. Her tireless advocacy and expertise make
+                        her an invaluable asset to anyone seeking resolution in the sensitive world of child welfare
+                        and guardianship matters.
                     Agnes is also a proud soccer mom.
                     <br/><br/>
                     </span>
@@ -186,7 +185,10 @@
 
                         <ul style="margin-bottom:3em">
                             <li>
-                                Call to the Bar, 2015
+                                B.A., LL.B, Nigeria, 2002
+                            </li>
+                            <li>
+                                Call to the Bar of Alberta, 2018
                             </li>
                         </ul>
                     </span>
@@ -195,10 +197,7 @@
 
                         <ul>
                             <li>
-                                Calgary bar association, 2015
-                            </li>
-                            <li>
-                                Partner,  Jan Law Chamber, 2018
+                                Calgary bar association, 2018
                             </li>
                         </ul>
                     </span>
@@ -209,94 +208,88 @@
 
     <section id="home-3" class="page-section bg-secondary bg-opacity-25" style="background-color:#D3D3D3">
         <div class="container">
+            <h6 class="text-center theme-color roboto " style="margin-bottom:-0.4em"> A LIFETIME OF LEGAL EXPERTISE</h6>
+            <h1 class="text-center gabarito" style="margin-top:0; margin-bottom:0.2em">
+                Family and Child Welfare Law
+            </h1>
             <div class="row justify-content-evenly" style="margin-bottom:2em">
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
                     <i class="fa-solid fa-ring containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Divorce and Separation</h5>
+                    <h5 class="text-start monteserrat containerHeader">Child Welfare</h5>
                   <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        With a history of successful outcomes and positive resolutions for families, we have a track
+                      record of excellence in child welfare cases. We understand that every child welfare case is unique,
+                      and we tailor our legal strategies to the specific needs and circumstances of each client.
                   </span>
                     <h6 class="containerHover-link theme-color" onclick="location.href='divorceSeparation.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
                     <i class="fa-solid fa-baby containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Child Custody Matters</h5>
+                    <h5 class="text-start monteserrat containerHeader">Parenting / Custody & Guardianship Matters</h5>
                     <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        Whether it's establishing legal guardianship or resolving disputes over guardianship,
+                        we have the legal acumen to guide families through these sensitive matters.
                   </span>
                     <h6 class="containerHover-link theme-color" onclick="location.href='childCustody.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
-                </div>
-                <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
-                    <i class="fa-regular fa-comments containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Mediation / Arbitration</h5>
-                    <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
-                  </span>
-                    <h6 class="containerHover-link theme-color" onclick="location.href='divorceSeparation.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
                     <i class="fa-regular fa-handshake containerIcon"></i>
                     <h5 class="text-start monteserrat containerHeader">Spousal / Partner Support</h5>
                     <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        We tailor our approach to your unique situation, taking into account factors such as income, assets,
+                        and the length of the marriage or partnership to determine the most favorable support arrangement.
                   </span>
-                    <h6 class="containerHover-link theme-color" onclick="location.href='divorceSeparation.html">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
+                    <h6 class="containerHover-link theme-color" onclick="location.href='divorceSeparation.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
+                </div>
+                <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
+                    <i class="fa-solid fa-divide containerIcon"></i>
+                    <h5 class="text-start monteserrat containerHeader">Divorce / Separation & Property Division</h5>
+                    <span class="d-inline-block" style="margin-bottom:3vh">
+                        Navigating divorce and separation can be challenging, but our firm excels in property division
+                        to ensure equitable resolutions, providing you with the support and expertise you need during this transition.
+                  </span>
+                    <h6 class="containerHover-link theme-color" onclick="location.href='divorceSeparation.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
             </div>
-            <div class="row justify-content-evenly">
+            <div class="row justify-content-evenly" style="margin-top:6em">
+                <h6 class="text-center theme-color roboto " style="margin-bottom:-0.4em"> WE'RE SERIOUS ABOUT SUPPORTING YOU</h6>
+                <h1 class="text-center gabarito" style="margin-top:0; margin-bottom:0.2em">
+                    Your Legal Partner for Life's Journeys.
+                </h1>
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
                     <i class="fa-solid fa-plane-departure containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Immigration Law</h5>
+                    <h5 class="text-start monteserrat containerHeader">Canadian Immigration & Refugee Law</h5>
                     <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        Our firm is committed to offering expert legal support to secure your future in Canada. With
+                        a deep understanding of the ever-evolving immigration landscape, we are your trusted partners
+                        on the journey to a new beginning.
                   </span>
                     <h6 class="containerHover-link theme-color" onclick="location.href='divorceSeparation.html.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
-                    <i class="fa-solid fa-house-chimney containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Wills and Estates</h5>
+                    <i class="fa-solid fa-handcuffs containerIcon"></i>
+                    <h5 class="text-start monteserrat containerHeader">Criminal Law</h5>
                     <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        Experience the strength of our Criminal Law expertise. Our firm provides relentless advocacy,
+                        safeguarding your rights and securing the best possible outcomes.
                   </span>
                     <h6 class="containerHover-link theme-color" onclick="location.href='wills.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
-                    <i class="fa-solid fa-gavel containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Civil Dispute Resolution</h5>
+                    <i class="fa-solid fa-house-chimney containerIcon"></i>
+                    <h5 class="text-start monteserrat containerHeader">Real Estate Law</h5>
                     <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        Unlocking your Opportunities in Real Estate Law: Our Firm's Expertise Delivers Seamless Transactions
+                        and Legal Confidence, Ensuring Your Real Estate Goals Become a Reality.
                   </span>
                     <h6 class="containerHover-link theme-color" onclick="location.href='childCustody.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
                 <div class="col-md-3 bg-white containerHover" style="background-clip: content-box">
-                    <i class="fa-solid fa-handcuffs containerIcon"></i>
-                    <h5 class="text-start monteserrat containerHeader">Adult/Youth Criminal Matters</h5>
+                    <i class="fa-solid fa-gavel containerIcon"></i>
+                    <h5 class="text-start monteserrat containerHeader">Wills & Estate Planning / Probate</h5>
                     <span class="d-inline-block" style="margin-bottom:3vh">
-                        She has displayed and maintained a high level of objectivity and neutrality in her role as children’s
-                        counsel and as an officer of the court. In addition to her litigation prowess, Agnes is a Practicing Mediator.
-                        Agnes counsels expertly, fights tooth and nail when needed, negotiates and mediates when appropriate and ensures
-                        that you are comfortable every step of the way. Agnes is also a proud soccer mom.
+                        Protect Your Legacy with Wills and Probate Planning: Our Firm's Expertise Ensures Your Loved Ones'
+                        Futures are Secure, Providing Peace of Mind and Comprehensive Solutions.
                   </span>
                     <h6 class="containerHover-link theme-color" onclick="location.href='criminalMatters.html'">Learn More <i class="fa-solid fa-arrow-right-long"></i></h6>
                 </div>
@@ -310,79 +303,33 @@
                 <div class="contactBox">
                     <i class="fa-solid fa-map-location contactIcon"></i>
                     <h2 style="margin-bottom:.5em">Location</h2>
-                    <h6 class="roboto">A108 Adam Street, New York, NY 535022</h6>
+                    <h6 class="roboto">Suite 203, 3016 19 Street NE</h6>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="contactBox">
                     <i class="fa-solid fa-phone-volume  contactIcon"></i>
                     <h2 style="margin-bottom:.5em">Phone</h2>
-                    <h6 class="roboto">403-828-3942</h6>
+                    <h6 class="roboto">587-355-9074</h6>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="contactBox">
-                    <i class="fa-solid fa-envelope contactIcon"></i>
-                    <h2 style="margin-bottom:.5em">Email</h2>
-                    <h6 class="roboto" onclick="location.href='mailto:xyz@abc.com'" style="cursor:pointer">contact@BLAMS.ca </h6>
+                    <i class="fa-solid fa-envelope contactIcon" style="cursor:pointer" onclick="location.href='mailto:info@aamehlawfirm.ca'"></i>
+                    <h2 style="margin-bottom:.5em; cursor:pointer" onclick="location.href='mailto:info@aamehlawfirm.ca'">Email</h2>
+                    <h6 class="roboto" onclick="location.href='mailto:info@aamehlawfirm.ca'" style="cursor:pointer">info@aamehlawfirm.ca </h6>
                 </div>
             </div>
         </div>
         <div class="row" style="margin-bottom: 2em">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5010.974206769606!2d-113.95737723515616!3d51.09947241503903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716354c0e91583%3A0x343ac373c7b45c72!2sKabob%20Garden%20-%20Afghan%20Kitchen!5e0!3m2!1sen!2sca!4v1689114200904!5m2!1sen!2sca"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.5747991259796!2d-114.01571050697241!3d51.079398768967195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537164e03cfca391%3A0xab5674bbe82ec3a0!2s3016%2019%20St%20NE%2C%20Calgary%2C%20AB%20T2E%206Y9!5e0!3m2!1sen!2sca!4v1696442651310!5m2!1sen!2sca"
                     style="border:0; width:100%; height:70vh" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
 <!-- Footer -->
-    <footer class="bg-dark text-light py-5 footer-content">
-        <div class="container footer-main">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3 class="theme-color">Contact Details</h3>
-                    <p>Mrs. Agnes</p>
-                    <p onclick="location.href='mailto:info@BLAMS.com'">info@BLAMS.com</p>
-                    <p>+1 123 456 7890</p>
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-solid fa-map-location-dot"></i>
-                </div>
-                <div class="col-md-3">
-                    <h3 class="theme-color">Services We Offer</h3>
-                        <ul class=" footer-serviceList">
-                            <li onclick="location.href='divorceSeparation.html'">
-                                <span class="footer-list-symbol">»</span> Divorce & Separation</li>
-                            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
-                            <li onclick="location.href='criminalMatters.html'"><span class="footer-list-symbol">»</span> Criminal Matters</li>
-                            <li onclick="location.href='wills.html'"><span class="footer-list-symbol">»</span> Wills and Estates</li>
-                            <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Child Custody</li>
-                            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Mediation & Arbitration</li>
-                            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
-                            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Civil Dispute Resolution</li>
-                        </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3 class="theme-color">Location</h3>
-                    <p>123 Main Street</p>
-                    <p>Calgary, AB, Canada</p>
-                    <p>T2N 1N5</p>
-                </div>
-            <div class="col-md-3">
-                <h3 class="theme-color">Hours</h3>
-                <p>Monday: 9:00 am – 5:00 pm</p>
-                <p>Tuesday: 9:00 am – 5:00 pm</p>
-                <p>Wednesday: 9:00 am – 5:00 pm</p>
-                <p>Thursday: 9:00 am – 5:00 pm</p>
-                <p>Friday: 9:00 am – 5:00 pm</p>
-                <p>Saturday & Sunday: By appointment only</p>
-            </div>
-        </div>
-        </div>
-        <div class="copyright">
-            ©Website designed by <strong><span>Ali Al-Khaz'Aly</span></strong>. All Rights Reserved
-        </div>
-    </footer>
+    <app-footer></app-footer>
 
 
 <script src="js/bootstrap.bundle.js"></script>
