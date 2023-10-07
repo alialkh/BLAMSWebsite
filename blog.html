@@ -11,60 +11,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
   <link rel="stylesheet" href="css/alisStylesheet.css">
+  <script src="./js/customElements.js"></script>
   <title>The BLAMS Firm</title>
 </head>
 
 <body>
 
 <!-- Header Here --->
-<header class="header" style="background-color: #e3f2fd;">
-  <nav class="navbar navbar-expand-lg navbar-light" >
-    <div class="container">
-      <div class="flex-grow-1"><a class="navbar-brand" href="index.html">Logo</a> </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-grow-1 justify-content-evenly">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ourTeam.html">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <div class="dropdown">
-              <a class="nav-link" onmouseover="displayDropdown()" href="#">Services & Practice Areas</a>
-              <div class="dropdown-content" id="myDropdown">
-                <a href="divorceSeparation.html">Divorce and Separation</a>
-                <a href="divorceSeparation.html">Immigration Law</a>
-                <a href="criminalMatters.html">Criminal Matters</a>
-                <a href="wills.html">Wills and Estates</a>
-                <a href="childCustody.html">Child Custody Matters</a>
-                <a href="#">Mediation and Arbitration</a>
-                <a href="#">Spousal and Partner Support</a>
-                <a href="#">Civil Dispute Resolution</a>
-              </div>
-            </div>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog and Knowledge</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<app-header></app-header>
 
 <!-- Page content -->
 <main>
   <!-- carousel -->
   <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="overlay-div-other">
-      <div class="overlay"><span class="overlay-text"><h1>BLAMS Law</h1></span></div>
+      <div class="overlay"><span class="overlay-text"><h1>Aameh Law</h1></span></div>
       <div class="overlay-2 monteserrat"><h2>Blog</h2></div>
       <div class="overlay-button">
         <!--                <a href="contact.html"> Contact Us 🠪</a>-->
@@ -136,53 +97,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-dark text-light py-5 footer-content">
-    <div class="container footer-main">
-      <div class="row">
-        <div class="col-md-3">
-          <h3 class="theme-color">Contact Details</h3>
-          <p>Mrs. Agnes</p>
-          <p onclick="location.href='mailto:info@BLAMS.com'">info@BLAMS.com</p>
-          <p>+1 123 456 7890</p>
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-solid fa-map-location-dot"></i>
-        </div>
-        <div class="col-md-3">
-          <h3 class="theme-color">Services We Offer</h3>
-          <ul class=" footer-serviceList">
-            <li onclick="location.href='divorceSeparation.html'">
-              <span class="footer-list-symbol">»</span> Divorce & Separation</li>
-            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
-            <li onclick="location.href='criminalMatters.html'"><span class="footer-list-symbol">»</span> Criminal Matters</li>
-            <li onclick="location.href='wills.html'"><span class="footer-list-symbol">»</span> Wills and Estates</li>
-            <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Child Custody</li>
-            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Mediation & Arbitration</li>
-            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
-            <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Civil Dispute Resolution</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h3 class="theme-color">Location</h3>
-          <p>123 Main Street</p>
-          <p>Calgary, AB, Canada</p>
-          <p>T2N 1N5</p>
-        </div>
-        <div class="col-md-3">
-          <h3 class="theme-color">Hours</h3>
-          <p>Monday: 9:00 am – 5:00 pm</p>
-          <p>Tuesday: 9:00 am – 5:00 pm</p>
-          <p>Wednesday: 9:00 am – 5:00 pm</p>
-          <p>Thursday: 9:00 am – 5:00 pm</p>
-          <p>Friday: 9:00 am – 5:00 pm</p>
-          <p>Saturday & Sunday: By appointment only</p>
-        </div>
-      </div>
-    </div>
-    <div class="copyright">
-      ©Website designed by <strong><span>Ali Al-Khaz'Aly</span></strong>. All Rights Reserved
-    </div>
-  </footer>
+  <app-footer></app-footer>
   <script src="js/bootstrap.bundle.js"></script>
 </main>
 </body>
