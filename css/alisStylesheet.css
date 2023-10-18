@@ -36,6 +36,14 @@ body {
     font-size:1rem;
 }
 @media (min-width: 800px) {
+    .overlay-div-inner{
+        margin-right:43vw;
+        margin-left:10vw;
+    }
+    .overlay-div-inner-moreText {
+        margin-right: 39vw;
+        margin-left: 7vw;
+    }
     .overlay-2 {
         position: relative;
         color: #fff;
