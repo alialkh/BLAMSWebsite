@@ -80,12 +80,12 @@ class customHeader extends HTMLElement {
                             <a class="nav-link" onmouseover="displayDropdown()" href="#">Services & Practice Areas</a>
                             <div class="dropdown-content" id="myDropdown">
                                 <a href="divorceSeparation.html">Divorce and Separation</a>
+                                <a href="childCustody.html">Parenting & Custody</a>
+                                <a href="spousalSupport.html">Spousal and Partner Support</a>
                                 <a href="immigration.html">Immigration Law</a>
                                 <a href="criminalMatters.html">Criminal Matters</a>
                                 <a href="realEstate.html">Real Estate Law</a>
                                 <a href="wills.html">Wills and Estates</a>
-                                <a href="childCustody.html">Parenting & Custody</a>
-                                <a href="spousalSupport.html">Spousal and Partner Support</a>
                                 <a href="childWelfare.html">Child Welfare</a>
                             </div>
                         </div>

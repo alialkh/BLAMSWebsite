@@ -30,7 +30,7 @@ body {
     margin-top: 3vh;
     /*margin-left: 10vw;*/
     /*margin-right: 10vw;*/
-    font-size:calc(2.75rem + 3vw);
+    font-size:calc(1.833rem + 2vw);  /* Used to be 2.75rem + 3vw */
 }
 .overlay-2 > h5{
     font-size:1rem;
@@ -49,6 +49,7 @@ body {
         color: #fff;
         text-align: center;
         margin-top: 3vh;
+        /*font-size:1em;*/
         /*margin-left: 25vw;*/
         /*margin-right: 25vw;*/
         /*margin-left:10vw;*/
