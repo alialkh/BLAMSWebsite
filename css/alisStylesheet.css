@@ -153,7 +153,9 @@ body {
     background-color: #f8f9fa;
     padding: 0 20px 0;
 }
-
+.nav-link{
+    font-size:1.1em;
+}
 .header a {
     color: #ffffff;
     text-decoration: none;
