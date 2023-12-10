@@ -20,14 +20,14 @@ class customFooter extends HTMLElement {
                 <div class="col-md-3">
                     <h3 class="theme-color">Services We Offer</h3>
                     <ul class=" footer-serviceList">
+                        <li onclick="location.href='childWelfare.html'"><span class="footer-list-symbol">»</span> Child Welfare</li>
+                        <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Parenting & Custody</li>
+                        <li onclick="location.href='spousalSupport.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
                         <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Divorce & Separation</li>
                         <li onclick="location.href='immigration.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
                         <li onclick="location.href='criminalMatters.html'"><span class="footer-list-symbol">»</span> Criminal Matters</li>
                         <li onclick="location.href='realEstate.html'"><span class="footer-list-symbol">»</span> Real Estate Law</li>
                         <li onclick="location.href='wills.html'"><span class="footer-list-symbol">»</span> Wills and Estates</li>
-                        <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Parenting & Custody</li>
-                        <li onclick="location.href='spousalSupport.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
-                        <li onclick="location.href='childWelfare.html'"><span class="footer-list-symbol">»</span> Child Welfare</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -62,12 +62,16 @@ class customHeader extends HTMLElement {
         <header class="header" style="background-color: #ff4d4d;">
     <nav class="navbar navbar-expand-lg navbar-light" >
         <div class="container">
-            <div class="flex-grow-1"><a class="navbar-brand monteserrat" href="index.html" style="font-size:3em">AAMEH LAW FIRM</a> </div>
+            <div class="flex-grow-1">
+<!--                <a class="navbar-brand monteserrat" href="index.html" style="font-size:3em">-->
+                <img class="header-img" src="../imgs/Logo-NoBackground.png"  alt="AAMEH LAW FIRM Logo"/> 
+<!--                </a> -->
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse flex-grow-2" id="navbarNav">
                 <ul class="navbar-nav ml-auto flex-grow-1 justify-content-evenly">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -79,14 +83,14 @@ class customHeader extends HTMLElement {
                         <div class="dropdown">
                             <a class="nav-link" onmouseover="displayDropdown()" href="#">Services & Practice Areas</a>
                             <div class="dropdown-content" id="myDropdown">
-                                <a href="divorceSeparation.html">Divorce and Separation</a>
+                                <a href="childWelfare.html">Child Welfare</a>
                                 <a href="childCustody.html">Parenting & Custody</a>
                                 <a href="spousalSupport.html">Spousal and Partner Support</a>
+                                <a href="divorceSeparation.html">Divorce and Separation</a>
                                 <a href="immigration.html">Immigration Law</a>
                                 <a href="criminalMatters.html">Criminal Matters</a>
                                 <a href="realEstate.html">Real Estate Law</a>
                                 <a href="wills.html">Wills and Estates</a>
-                                <a href="childWelfare.html">Child Welfare</a>
                             </div>
                         </div>
 <!--                    <li class="nav-item">-->

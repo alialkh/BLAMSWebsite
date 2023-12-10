@@ -158,6 +158,14 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+.header-img {
+    display: block;
+    max-width: 25%;
+    max-height: 22vh;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 0;
+}
 
 .header ul li {
     font-size: 1.25em;
@@ -374,8 +382,8 @@ footer i:hover {
     }
     .team-img{
         position:relative;
-        top:15vh;
-        left:-13vw;
+        top:5vh;
+        left:-7vw;
         max-width:100%;
         width:auto;
         height:auto;
