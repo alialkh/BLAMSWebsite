@@ -172,11 +172,12 @@ body {
 .header ul li {
     font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
+    margin-right:1em;
 }
 
 .header a:hover {
-    color: #6173f4;
-    border-bottom: 3px solid #6173f4;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
