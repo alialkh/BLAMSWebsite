@@ -22,7 +22,7 @@ class customFooter extends HTMLElement {
                     <ul class=" footer-serviceList">
                         <li onclick="location.href='childWelfare.html'"><span class="footer-list-symbol">»</span> Child Welfare</li>
                         <li onclick="location.href='childCustody.html'"><span class="footer-list-symbol">»</span> Parenting & Custody</li>
-                        <li onclick="location.href='spousalSupport.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>
+<!--                        <li onclick="location.href='spousalSupport.html'"><span class="footer-list-symbol">»</span> Spousal & Partner Support</li>-->
                         <li onclick="location.href='divorceSeparation.html'"><span class="footer-list-symbol">»</span> Divorce & Separation</li>
                         <li onclick="location.href='immigration.html'"><span class="footer-list-symbol">»</span> Immigration Law</li>
                         <li onclick="location.href='criminalMatters.html'"><span class="footer-list-symbol">»</span> Criminal Matters</li>
@@ -85,7 +85,7 @@ class customHeader extends HTMLElement {
                             <div class="dropdown-content" id="myDropdown">
                                 <a href="childWelfare.html">Child Welfare</a>
                                 <a href="childCustody.html">Parenting & Custody</a>
-                                <a href="spousalSupport.html">Spousal and Partner Support</a>
+<!--                                <a href="spousalSupport.html">Spousal and Partner Support</a>-->
                                 <a href="divorceSeparation.html">Divorce and Separation</a>
                                 <a href="immigration.html">Immigration Law</a>
                                 <a href="criminalMatters.html">Criminal Matters</a>
