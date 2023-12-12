@@ -59,7 +59,7 @@ class customFooter extends HTMLElement {
 class customHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = ` 
-        <header class="header" style="background-color: #ff4d4d;">
+        <header class="header" style="background-color: #0c0070;">
     <nav class="navbar navbar-expand-lg navbar-light" >
         <div class="container">
             <div class="flex-grow-1">
