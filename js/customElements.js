@@ -10,7 +10,7 @@ class customFooter extends HTMLElement {
             <div class="row">
                 <div class="col-md-3">
                     <h3 class="theme-color">Contact Details</h3>
-                    <p>Mrs. Agnes Ameh</p>
+                    <p>Agnes O. Ameh</p>
                     <p onclick="location.href='mailto:info@aamehlawfirm.ca'" class="mail-link">info@aamehlawfirm.ca </p>
                     <p>+1 587-355-9074</p>
                     <i class="fa-brands fa-square-facebook"></i>
@@ -39,12 +39,12 @@ class customFooter extends HTMLElement {
                 </div>
                 <div class="col-md-3">
                     <h3 class="theme-color">Hours</h3>
-                    <p>Monday: 8:00 am – 5:00 pm</p>
-                    <p>Tuesday: 8:00 am – 5:00 pm</p>
-                    <p>Wednesday: 8:00 am – 5:00 pm</p>
-                    <p>Thursday: 8:00 am – 5:00 pm</p>
-                    <p>Friday: 8:00 am – 5:00 pm</p>
-                    <p>Saturday & Sunday: By appointment only</p>
+                    <p>Monday: 8:30 am – 5:30 pm</p>
+                    <p>Tuesday: 8:30 am – 5:30 pm</p>
+                    <p>Wednesday: 8:30 am – 5:30 pm</p>
+                    <p>Thursday: 8:30 am – 5:30 pm</p>
+                    <p>Friday: 8:30 am – 5:30 pm</p>
+                    <p>Saturday, Sunday, Statutory Holidays: By appointment only</p>
                 </div>
             </div>
         </div>
