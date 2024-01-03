@@ -49,7 +49,7 @@ class customFooter extends HTMLElement {
             </div>
         </div>
         <div class="copyright">
-            ©Website designed by <strong><span>Ali Al-Khaz'Aly</span></strong>. All Rights Reserved
+            ©Website designed by <a href="https://cspages.ucalgary.ca/~ali.alkhazaly" class="theme-color"><strong><span>Ali Al-Khaz'Aly</span></strong></a>. All Rights Reserved
         </div>
     </footer>
         `
