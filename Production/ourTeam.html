@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css"/>
+  <link rel="stylesheet" href="css/alisStylesheet.css"/>
+  <script src="./js/customElements.js"></script>
+    <title>Our Team | The AAMEH LAW FIRM</title>
+</head>
+
+<body>
+
+
+<!-- Header Here --->
+<app-header></app-header>
+
+<!-- Page content -->
+<main>
+  <!-- carousel -->
+  <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="overlay-div-other">
+      <div class="overlay"><span class="overlay-text"><h1>AAMEH LAW FIRM</h1></span></div>
+      <div class="overlay-2 monteserrat"><h2>Our Team</h2></div>
+      <div class="overlay-button">
+        <!--                <a href="contact.html"> Contact Us 🠪</a>-->
+      </div>
+
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="other carousel-item active" data-bs-interval="4000">
+        <img src="imgs/TheLegalHammer.jpg" class="d-block" alt="...">
+      </div>
+      <div class="other carousel-item" data-bs-interval="2000">
+        <img src="imgs/courthouse.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="container team-container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="monteserrat fw-bold team-header">Who we are</h1>
+        <div class="team-internal-container">
+<!--          <h5 class="quicksand"> EST 2023</h5>-->
+          <h2 style="margin-bottom:0.5em"><b>Our Story</b></h2>
+          <p>
+              Our commitment to making a difference in the lives of people/families is at the heart
+              of our practice. We understand the profound importance of family unity and offer unwavering support,
+              whether you're facing family challenges or seeking legal solutions in areas like family & child welfare,
+              immigration, criminal law, real estate, and wills and estate planning.
+          </p>
+          <p>
+              We know that life's legal challenges can be multifaceted, and our
+              mission is to guide and protect you in every aspect of your legal journey. At AAMEH LAW FIRM, your story
+              is our story, and together, we can create a brighter chapter for you and your loved ones.
+              No matter the legal challenges you face, you can trust AAMEH LAW FIRM to be your
+              dedicated legal partner.
+          </p>
+          <a type="button" class="btn btn-primary" href="contact.html"
+             style="font-size:1.5rem;">Contact Us Now</a>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img src="imgs/lawLibrary_nice.jpg" class="team-img"/>
+      </div>
+  </div>
+  </div>
+
+  <section class="team-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="theme-color gabarito"> Agnes Ojone Ameh </h3>
+            <img class="bio-img" src="./imgs/AgnesPic%20-%20No%20Background.png" alt="Agnes Ojone Ameh Image">
+          <h6 class="monteserrat" style="margin-bottom:1em;">Principal Lawyer</h6>
+          <h6 class="monteserrat"><b>LL.B., B.L.</b></h6>
+        </div>
+        <div class="col-md-8">
+                    <span class="monteserrat">
+                    Since graduating from Nnamdi Azikiwe University in 2002 in Nigeria and her subsequent call to the Alberta bar in 2018, Agnes has
+                        supported hundreds of people through a wide variety of areas of law. These areas include
+                        but are not limited to
+                        parenting/child custody, Permanent & Temporary Gaurdianship orders, child/spousal support matters, separation & divorce,
+                        immigration/refugee law, criminal law, real-estate/ wills & estate management.
+                    <br><br>Agnes draws on her international background to bring a unique perspective to her areas of practice.
+                        She's a dedicated advocate for her clients, having spent years supporting both men and women through a
+                        variety of different challenging legal matters.
+                        Her unwavering commitment to clients and her breadth of legal acumen empowers her clients and protect their interests.
+                        <br/><br/>
+                        Overall, Agnes's tireless advocacy and long record of expertise make
+                        her an invaluable asset to anyone seeking resolution and support in a wide range of legal domains.
+                    <br/><br/>
+                    </span>
+            <span>
+                        <h5 style="margin-bottom:1em">Education</h5>
+
+                        <ul style="margin-bottom:3em">
+                            <li>
+                                LL.B, Nigeria, 2002, B.L., Nigeria 2005
+                            </li>
+                            <li>
+                                Call to the Alberta Bar, 2018
+                            </li>
+                        </ul>
+            </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <app-footer></app-footer>
+  <script src="js/bootstrap.bundle.js"></script>
+</main>
+</body>
+
+</html>

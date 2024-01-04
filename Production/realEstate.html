@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="css/alisStylesheet.css">
+    <script src="./js/customElements.js"></script>
+    <title>Real Estate | The AAMEH LAW FIRM</title>
+</head>
+
+<body>
+
+<!-- Header Here --->
+<app-header></app-header>
+
+<!-- Page content -->
+<main>
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="overlay-div-other">
+            <div class="overlay"><span class="overlay-text"><h1>AAMEH LAW FIRM</h1></span></div>
+            <div class="overlay-2 monteserrat"><h2>Real Estate Law</h2></div>
+            <div class="overlay-button">
+                <!--                <a href="contact.html"> Contact Us 🠪</a>-->
+            </div>
+
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="other carousel-item active" data-bs-interval="4000">
+                <img src="imgs/TheLegalHammer.jpg" class="d-block" alt="...">
+            </div>
+            <div class="other carousel-item" data-bs-interval="2000">
+                <img src="imgs/courthouse.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 4em;margin-bottom:2em">
+        <div class="row">
+            <div class="col-md-6 ">
+                <img src="imgs/realestate.jpg" alt="inside of a home demonstrating real-estate"
+                     class="info-img"/>
+                <div class="align-content-center text-center" style="margin-top:3em; margin-bottom:3em;">
+                    <a type="button" class=" btn btn-outline-primary" href="contact.html"
+                       style="font-size:2rem;">Contact Us Now</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    At the AAMEH LAW FIRM, we recognize that real estate transactions are among the most significant financial
+                    investments you'll ever make. Whether you're buying, selling, leasing, or dealing with property
+                    disputes, our team of seasoned real estate attorneys is here to protect your interests. With a deep
+                    understanding of local and federal real estate regulations, we ensure that your transactions are
+                    conducted smoothly and efficiently. Our dedicated lawyers are committed to helping you make sound real estate
+                    decisions and turning your property goals into a reality. Trust us to be your partner in all your
+                    real estate legal needs. Contact us today for expert advice and representation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <app-footer></app-footer>
+    <script src="js/bootstrap.bundle.js"></script>
+</main>
+</body>
+
+</html>
